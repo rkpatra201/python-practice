@@ -1,0 +1,23 @@
+employee1 = {
+    'name': 'rabi'
+}
+employee2 = {
+    'name': 'asis'
+}
+
+employee3 = {
+    'name': 'siva'
+}
+
+dept1 = {
+    'name': 'phy'
+}
+dept2 = {
+    'name': 'bio'
+}
+dept3 = {
+    'name': 'cs'
+}
+
+dept_employee = {dept1: [employee1, employee2], dept2: [employee2, employee3], dept3: employee1}
+print(dept_employee)
